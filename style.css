@@ -1,19 +1,48 @@
-body{
-color White;
-  background: black
-  margin:Opx;
+body{ {
+  color: white;
+  background: black;
+  margin: 0px;
+  font-family: "Bitcount Grid Double", system-ui;
 }
 
-header{
-   border-bottom:solid 2px #15a5e3;
-  padding: 20px;
-  front-size:50px
-  color:#45ffo;
+header {
+    border-bottom: solid 2px #15a5e3;
+    padding: 20px;
+    font-size: 32px;
+    color: #45f5f0;
 }
 
-setion{
-   background:#0628e9;
-  padding-bottom
-  padding-top:80
-  display:flex;
-  justi)
+.principal {
+    background: #0628e9;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+  margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+img {
+  height: 200px;
+}
+
+.outros {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.outrosvideos {
+  padding-right: 20px;
+  padding-left: 20px;
+}
